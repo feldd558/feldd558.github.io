@@ -1,0 +1,11 @@
+.wrapper {
+  width: 300px;
+  margin: 0 auto;
+  background-color: yellow;
+  height: 2000px;
+  overflow: hidden;
+}
+
+.outer {
+  overflow-x: auto;
+}
