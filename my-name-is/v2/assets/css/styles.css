@@ -1,0 +1,26 @@
+div {vertical-align: center;}
+div {text-align: center;}
+div {border-top: 15px}
+
+}
+
+
+
+h1,{
+	font-size: 15px;
+	margin: 0;
+	font-family: arial, helvetica, sans-serif;
+}
+
+h2,{
+	font-size: 15px;
+	margin: 0;
+	font-family: georgia, times, serif;
+}
+
+body {
+	margin: 0;
+	padding: 15;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 15px;
+}
