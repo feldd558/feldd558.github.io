@@ -1,0 +1,48 @@
+.word-wrapper {
+	display: inline-block;
+	font-size: 0;
+	margin-right: 60px;
+
+}
+
+.black {background: #000}
+.red {background: #f00}
+.blue {background: #00f}
+.yellow {background: #ff0}
+
+.bar{
+	position: absolute;
+}
+
+.vertical{
+	width: 30px;
+	height: 200px;
+}
+
+.horizontal{
+	width: 150px;
+	height: 30px;
+}
+
+.letter-wrapper {
+	display: inline-block;
+	font-size: 0;
+	margin: 0 15px 30px 15px;
+}
+
+.letter {
+	width: 150px;
+	height: 200px;
+	background: #00ff00;
+	position: relative;
+}
+
+/*
+
+Position:
+absolute =
+relative =
+static = default position
+fixed =
+
+*/

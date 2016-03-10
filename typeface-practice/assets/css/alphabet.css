@@ -1,0 +1,46 @@
+.a-left { 
+	top: 0;
+	left: 0;
+}
+
+.a-right { 
+	top: 0px;
+	right: 0px;
+}
+
+.a-top {
+	top: 0;
+	left: 0;
+}
+
+.a-middle {
+	top: 85px;
+	left: 0px;
+}
+
+
+
+.b-left { 
+	top: 0;
+	left: 0;
+}
+
+.b-right { 
+	top: 0px;
+	right: 0px;
+}
+
+.b-top {
+	top: 0;
+	left: 0;
+}
+
+.b-middle {
+	top: 85px;
+	left: 0px;
+}
+
+.b-bottom {
+	bottom: 0;
+	left: 0px;
+}
