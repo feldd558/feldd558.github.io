@@ -1,0 +1,10 @@
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 18px;
+	background: yellow;
+}
+
+.converted_wallet {
+  font-size: 18px;
+  background: orange;
+}

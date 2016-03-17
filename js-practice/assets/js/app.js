@@ -2,13 +2,13 @@
 // alert('hello js');
 
 //variables
-var animal = "cat";
-var age = 12.5;
-var clothing = ["shirts", "socks", "pants"];
-var winner = false;
+//var animal = "cat";
+//var age = 12.5;
+//var clothing = ["shirts", "socks", "pants"];
+//var winner = false;
 var checking_account = 1000;
 
-console.log(winner);
+//console.log(winner);
 
 // functions
 function print_text(text) {
