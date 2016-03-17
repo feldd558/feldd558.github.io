@@ -1,0 +1,170 @@
+* { box-sizing: border-box;}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 0;}
+
+div {vertical-align: top;}
+
+.letter-d{
+	width: 500px;
+	height: 650px;
+	display: inline-block;
+}
+
+.row-d {
+	width: 500px;
+	height: 50px;
+	display: inline-block;
+}
+
+.pix-d {
+	width: 50px;
+	height: 50px;
+	margin: 0px;
+	display: inline-block;
+}
+
+.da1 {  }
+.da2 {  }
+.da3 {  }
+.da4 {  }
+.da5 {  }
+.da6 { background: yellow;  }
+.da7 { background: yellow;  }
+.da8 { background: yellow;  }
+.da9 {  }
+.da10 { }
+
+.db1 {  }
+.db2 {  }
+.db3 {  }
+.db4 {  }
+.db5 { background: orange;  }
+.db6 { background: orange;  }
+.db7 { background: orange;  }
+.db8 { background: orange;  }
+.db9 {  }
+.db10 { }
+
+.dc1 {  }
+.dc2 {  }
+.dc3 {  }
+.dc4 {  }
+.dc5 {  }
+.dc6 {  }
+.dc7 { background: yellow;  }
+.dc8 { background: yellow;  }
+.dc9 {  }
+.dc10 { }
+
+.dd1 {  }
+.dd2 {  }
+.dd3 { background: orange;  }
+.dd4 { background: orange;  }
+.dd5 { background: orange;  }
+.dd6 { background: orange;  }
+.dd7 { background: orange;  }
+.dd8 { background: orange;  }
+.dd9 {  }
+.dd10 { }
+
+.de1 {  }
+.de2 { background: yellow;  }
+.de3 { background: yellow;  }
+.de4 { background: yellow;  }
+.de5 { background: yellow;  }
+.de6 { background: yellow;  }
+.de7 { background: yellow;  }
+.de8 { background: yellow;  }
+.de9 {  }
+.de10 { }
+
+.df1 { background: orange;  }
+.df2 { background: orange;  }
+.df3 { background: orange;  }
+.df4 {  }
+.df5 {  }
+.df6 { background: orange;  }
+.df7 { background: orange;  }
+.df8 { background: orange;  }
+.df9 {  }
+.df10 { }
+
+.dg1 { background: yellow;  }
+.dg2 { background: yellow;  }
+.dg3 {  }
+.dg4 {  }
+.dg5 {  }
+.dg6 { background: yellow;  }
+.dg7 { background: yellow;  }
+.dg8 { background: yellow;  }
+.dg9 {  }
+.dg10 { }
+
+.dh1 { background: orange;  }
+.dh2 { background: orange;  }
+.dh3 {  }
+.dh4 {  }
+.dh5 {  }
+.dh6 { background: orange;  }
+.dh7 { background: orange;  }
+.dh8 { background: orange;  }
+.dh9 {  }
+.dh10 { }
+
+.di1 { background: yellow;  }
+.di2 { background: yellow;  }
+.di3 { background: yellow;  }
+.di4 { background: yellow;  }
+.di5 { background: yellow;  }
+.di6 { background: yellow;  }
+.di7 { background: yellow;  }
+.di8 { background: yellow;  }
+.di9 { background: yellow;  }
+.di10 { }
+
+.dj1 {  }
+.dj2 { background: orange;  }
+.dj3 { background: orange;  }
+.dj4 { background: orange;  }
+.dj5 { background: orange;  }
+.dj6 { background: orange;  }
+.dj7 { background: orange;  }
+.dj8 { background: orange;  }
+.dj9 { background: orange;  }
+.dj10 { }
+
+.dk1 {  }
+.dk2 {  }
+.dk3 {  }
+.dk4 { background: yellow;  }
+.dk5 { background: yellow;  }
+.dk6 {  }
+.dk7 {  }
+.dk8 {  }
+.dk9 {  }
+.dk10 { }
+
+.dl1 {  }
+.dl2 {  }
+.dl3 {  }
+.dl4 {  }
+.dl5 {  }
+.dl6 {  }
+.dl7 {  }
+.dl8 {  }
+.dl9 {  }
+.dl10 { }
+
+.dm1 {  }
+.dm2 {  }
+.dm3 {  }
+.dm4 {  }
+.dm5 {  }
+.dm6 {  }
+.dm7 {  }
+.dm8 {  }
+.dm9 {  }
+.dm10 { }
