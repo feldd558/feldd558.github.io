@@ -31,9 +31,9 @@ div {vertical-align: top;}
 .da3 {  }
 .da4 {  }
 .da5 {  }
-.da6 { background: yellow;  }
-.da7 { background: yellow;  }
-.da8 { background: yellow;  }
+.da6 { background: #e5d7d2;  }
+.da7 { background: #cececd;  }
+.da8 { background: #d7e5f2;  }
 .da9 {  }
 .da10 { }
 
@@ -41,10 +41,10 @@ div {vertical-align: top;}
 .db2 {  }
 .db3 {  }
 .db4 {  }
-.db5 { background: orange;  }
-.db6 { background: orange;  }
-.db7 { background: orange;  }
-.db8 { background: orange;  }
+.db5 { background: #fff7d3;  }
+.db6 { background: #5a0e0e;  }
+.db7 { background: #010101;  }
+.db8 { background: #2f8ac8;  }
 .db9 {  }
 .db10 { }
 
@@ -54,93 +54,93 @@ div {vertical-align: top;}
 .dc4 {  }
 .dc5 {  }
 .dc6 {  }
-.dc7 { background: yellow;  }
-.dc8 { background: yellow;  }
+.dc7 { background: #91301e;  }
+.dc8 { background: #4191ce;  }
 .dc9 {  }
 .dc10 { }
 
 .dd1 {  }
 .dd2 {  }
-.dd3 { background: orange;  }
-.dd4 { background: orange;  }
-.dd5 { background: orange;  }
-.dd6 { background: orange;  }
-.dd7 { background: orange;  }
-.dd8 { background: orange;  }
+.dd3 { background: #d7bda0;  }
+.dd4 { background: #675042;  }
+.dd5 { background: #42425c;  }
+.dd6 { background: #899f98;  }
+.dd7 { background: #5a0e0e;  }
+.dd8 { background: #4191ce;  }
 .dd9 {  }
 .dd10 { }
 
 .de1 {  }
-.de2 { background: yellow;  }
-.de3 { background: yellow;  }
-.de4 { background: yellow;  }
-.de5 { background: yellow;  }
-.de6 { background: yellow;  }
-.de7 { background: yellow;  }
-.de8 { background: yellow;  }
+.de2 { background: #d19f5d;  }
+.de3 { background: #010101;  }
+.de4 { background: #2f5d83;  }
+.de5 { background: #989882;  }
+.de6 { background: #2d1010;  }
+.de7 { background: #010101;  }
+.de8 { background: #5099cd;  }
 .de9 {  }
 .de10 { }
 
-.df1 { background: orange;  }
-.df2 { background: orange;  }
-.df3 { background: orange;  }
+.df1 { background: #fff7d3;  }
+.df2 { background: #4b1212;  }
+.df3 { background: #5092c8;  }
 .df4 {  }
 .df5 {  }
-.df6 { background: orange;  }
-.df7 { background: orange;  }
-.df8 { background: orange;  }
+.df6 { background: #fff2ce;  }
+.df7 { background: #640e0e;  }
+.df8 { background: #4191ce;  }
 .df9 {  }
 .df10 { }
 
-.dg1 { background: yellow;  }
-.dg2 { background: yellow;  }
-.dg3 {  }
+.dg1 { background: #fff2ce;  }
+.dg2 { background: #4b1212;  }
+.dg3 { background: #7bc2eb; }
 .dg4 {  }
 .dg5 {  }
-.dg6 { background: yellow;  }
-.dg7 { background: yellow;  }
-.dg8 { background: yellow;  }
+.dg6 { background: #fefdef;  }
+.dg7 { background: #811517;  }
+.dg8 { background: #4191ce;  }
 .dg9 {  }
 .dg10 { }
 
-.dh1 { background: orange;  }
-.dh2 { background: orange;  }
-.dh3 {  }
+.dh1 { background: #fff2ce;  }
+.dh2 { background: #3b1312;  }
+.dh3 { background: #72b1e1; }
 .dh4 {  }
 .dh5 {  }
-.dh6 { background: orange;  }
-.dh7 { background: orange;  }
-.dh8 { background: orange;  }
+.dh6 { background: #fffade;  }
+.dh7 { background: #6e0e10;  }
+.dh8 { background: #4198d4;  }
 .dh9 {  }
 .dh10 { }
 
-.di1 { background: yellow;  }
-.di2 { background: yellow;  }
-.di3 { background: yellow;  }
-.di4 { background: yellow;  }
-.di5 { background: yellow;  }
-.di6 { background: yellow;  }
-.di7 { background: yellow;  }
-.di8 { background: yellow;  }
-.di9 { background: yellow;  }
+.di1 { background: #fefdef;  }
+.di2 { background: #985223;  }
+.di3 { background: #10112c;  }
+.di4 { background: #82a5c1;  }
+.di5 { background: #d8d3c2;  }
+.di6 { background: #895121;  }
+.di7 { background: #010101;  }
+.di8 { background: #4371a0;  }
+.di9 { background: #dff3fa;  }
 .di10 { }
 
 .dj1 {  }
-.dj2 { background: orange;  }
-.dj3 { background: orange;  }
-.dj4 { background: orange;  }
-.dj5 { background: orange;  }
-.dj6 { background: orange;  }
-.dj7 { background: orange;  }
-.dj8 { background: orange;  }
-.dj9 { background: orange;  }
+.dj2 { background: #ffefd3;  }
+.dj3 { background: #815020;  }
+.dj4 { background: #010101;  }
+.dj5 { background: #010101;  }
+.dj6 { background: #2f505d;  }
+.dj7 { background: #2d1010;  }
+.dj8 { background: #010101;  }
+.dj9 { background: #5da5d6;  }
 .dj10 { }
 
 .dk1 {  }
 .dk2 {  }
 .dk3 {  }
-.dk4 { background: yellow;  }
-.dk5 { background: yellow;  }
+.dk4 { background: #f3efee;  }
+.dk5 { background: #eeeef7;  }
 .dk6 {  }
 .dk7 {  }
 .dk8 {  }
