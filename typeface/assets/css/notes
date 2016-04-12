@@ -1,0 +1,10 @@
+    text-align: right;
+    width: 100000px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /* transform: translate(-12px, 50%); */
+    transform-origin: 100% 0;
+    /* transform: translate(-12px, 50%); */
+    transform: scale(.1);

@@ -1,0 +1,170 @@
+* { box-sizing: border-box;}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 0;}
+
+div {vertical-align: top;}
+
+.letter-t {
+	width: 500px;
+	height: 650px;
+	display: inline-block;
+}
+
+.row-t {
+	width: 500px;
+	height: 50px;
+	display: inline-block;
+}
+
+.pix-t {
+	width: 50px;
+	height: 50px;
+	margin: 0px;
+	display: inline-block;
+}
+
+.ta1 { }
+.ta2 { }
+.ta3 { }
+.ta4 { }
+.ta5 { }
+.ta6 { }
+.ta7 { }
+.ta8 { }
+.ta9 { }
+.ta10 {}
+
+.tb1 {}
+.tb2 {}
+.tb3 { background: #c89f87;}
+.tb4 { background: #a9d1ee;}
+.tb5 { }
+.tb6 { }
+.tb7 { }
+.tb8 { }
+.tb9 { }
+.tb10 {}
+
+.tc1 {}
+.tc2 {}
+.tc3 { background: #99311f;}
+.tc4 { background: #2d8fce;}
+.tc5 { }
+.tc6 { }
+.tc7 { }
+.tc8 { }
+.tc9 { }
+.tc10 {}
+
+.td1 { background: #f7ead5;}
+.td2 { background: #c2bdb1;}
+.td3 { background: #6f3315;}
+.td4 { background: #005b93;}
+.td5 { background: #005b93;}
+.td6 { background: #c2bdbd;}
+.td7 { background: #c2cde0;}
+.td8 { }
+.td9 { }
+.td10 {}
+
+.te1 { background: #e1b274;}
+.te2 { background: #000000;}
+.te3 { background: #000000;}
+.te4 { background: #000000;}
+.te5 { background: #000000;}
+.te6 { background: #000000;}
+.te7 { background: #000000;}
+.te8 { background: #024f9e;}
+.te9 { }
+.te10 {}
+
+.tf1 {}
+.tf2 {}
+.tf3 { background: #984421;}
+.tf4 { background: #2a90ce;}
+.tf5 { }
+.tf6 { }
+.tf7 { }
+.tf8 { }
+.tf9 { }
+.tf10 {}
+
+.tg1 {}
+.tg2 {}
+.tg3 { background: #984421;}
+.tg4 { background: #2a90ce;}
+.tg5 { }
+.tg6 { }
+.tg7 { }
+.tg8 { }
+.tg9 { }
+.tg10 {}
+
+.th1 {}
+.th2 {}
+.th3 { background: #984421;}
+.th4 { background: #2a90ce;}
+.th5 { }
+.th6 { }
+.th7 { }
+.th8 { }
+.th9 { }
+.th10 {}
+
+.ti1 {}
+.ti2 {}
+.ti3 { background: #a55f26;}
+.ti4 { background: #074e8a;}
+.ti5 { background: #c8d8d8;}
+.ti6 { background: #cdbea4;}
+.ti7 { background: #6f451b;}
+.ti8 { background: #024f9e;}
+.ti9 { background: #f2fafb;}
+.ti10 {}
+
+.tj1 {}
+.tj2 {}
+.tj3 { background: #f7dcaf;}
+.tj4 { background: #4a1110;}
+.tj5 { background: #000000;}
+.tj6 { background: #000000;}
+.tj7 { background: #2c5c72;}
+.tj8 { background: #b0cceb;}
+.tj9 { }
+.tj10 {}
+
+.tk1 {}
+.tk2 {}
+.tk3 {}
+.tk4 {}
+.tk5 { background: #f3f3f3;}
+.tk6 { background: #f7fcfe;}
+.tk7 { }
+.tk8 { }
+.tk9 { }
+.tk10 {}
+
+.tl1 { }
+.tl2 { }
+.tl3 { }
+.tl4 { }
+.tl5 { }
+.tl6 { }
+.tl7 { }
+.tl8 { }
+.tl9 { }
+.tl10 {}
+
+.tm1 { }
+.tm2 { }
+.tm3 { }
+.tm4 { }
+.tm5 { }
+.tm6 { }
+.tm7 { }
+.tm8 { }
+.tm9 { }
+.tm10 {}

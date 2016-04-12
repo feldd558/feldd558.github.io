@@ -1,0 +1,486 @@
+.letter{
+	width: 500px;
+	height: 650px;
+	background: blue;
+}
+
+.row {
+	width: 500px;
+	height: 50px;
+	background: red;
+	display: inline-block;
+}
+
+.pix {
+	width: 50px;
+	height: 50px;
+	margin: 0px;
+	background: green;
+	display: inline-block;
+}
+
+.a1 { background: yellow; display: inline-block; }
+.a2 { background: yellow; display: inline-block; }
+.a3 { background: yellow; display: inline-block; }
+.a4 { background: yellow; display: inline-block; }
+.a5 { background: yellow; display: inline-block; }
+.a6 { background: yellow; display: inline-block; }
+.a7 { background: yellow; display: inline-block; }
+.a8 { background: yellow; display: inline-block; }
+.a9 { background: yellow; display: inline-block; }
+.a10 {background: yellow; display: inline-block; }
+
+.b1 { background: orange; display: inline-block; }
+.b2 { background: orange; display: inline-block; }
+.b3 { background: orange; display: inline-block; }
+.b4 { background: orange; display: inline-block; }
+.b5 { background: orange; display: inline-block; }
+.b6 { background: orange; display: inline-block; }
+.b7 { background: orange; display: inline-block; }
+.b8 { background: orange; display: inline-block; }
+.b9 { background: orange; display: inline-block; }
+.b10 {background: orange; display: inline-block; }
+
+.c1 { background: yellow; display: inline-block; }
+.c2 { background: yellow; display: inline-block; }
+.c3 { background: yellow; display: inline-block; }
+.c4 { background: yellow; display: inline-block; }
+.c5 { background: yellow; display: inline-block; }
+.c6 { background: yellow; display: inline-block; }
+.c7 { background: yellow; display: inline-block; }
+.c8 { background: yellow; display: inline-block; }
+.c9 { background: yellow; display: inline-block; }
+.c10 {background: yellow; display: inline-block; }
+
+.d1 { background: orange; display: inline-block; }
+.d2 { background: orange; display: inline-block; }
+.d3 { background: orange; display: inline-block; }
+.d4 { background: orange; display: inline-block; }
+.d5 { background: orange; display: inline-block; }
+.d6 { background: orange; display: inline-block; }
+.d7 { background: orange; display: inline-block; }
+.d8 { background: orange; display: inline-block; }
+.d9 { background: orange; display: inline-block; }
+.d10 {background: orange; display: inline-block; }
+
+.e1 { background: yellow; display: inline-block; }
+.e2 { background: yellow; display: inline-block; }
+.e3 { background: yellow; display: inline-block; }
+.e4 { background: yellow; display: inline-block; }
+.e5 { background: yellow; display: inline-block; }
+.e6 { background: yellow; display: inline-block; }
+.e7 { background: yellow; display: inline-block; }
+.e8 { background: yellow; display: inline-block; }
+.e9 { background: yellow; display: inline-block; }
+.e10 {background: yellow; display: inline-block; }
+
+.f1 { background: orange; display: inline-block; }
+.f2 { background: orange; display: inline-block; }
+.f3 { background: orange; display: inline-block; }
+.f4 { background: orange; display: inline-block; }
+.f5 { background: orange; display: inline-block; }
+.f6 { background: orange; display: inline-block; }
+.f7 { background: orange; display: inline-block; }
+.f8 { background: orange; display: inline-block; }
+.f9 { background: orange; display: inline-block; }
+.f10 {background: orange; display: inline-block; }
+
+.g1 { background: yellow; display: inline-block; }
+.g2 { background: yellow; display: inline-block; }
+.g3 { background: yellow; display: inline-block; }
+.g4 { background: yellow; display: inline-block; }
+.g5 { background: yellow; display: inline-block; }
+.g6 { background: yellow; display: inline-block; }
+.g7 { background: yellow; display: inline-block; }
+.g8 { background: yellow; display: inline-block; }
+.g9 { background: yellow; display: inline-block; }
+.g10 {background: yellow; display: inline-block; }
+
+.h1 { background: orange; display: inline-block; }
+.h2 { background: orange; display: inline-block; }
+.h3 { background: orange; display: inline-block; }
+.h4 { background: orange; display: inline-block; }
+.h5 { background: orange; display: inline-block; }
+.h6 { background: orange; display: inline-block; }
+.h7 { background: orange; display: inline-block; }
+.h8 { background: orange; display: inline-block; }
+.h9 { background: orange; display: inline-block; }
+.h10 {background: orange; display: inline-block; }
+
+.i1 { background: yellow; display: inline-block; }
+.i2 { background: yellow; display: inline-block; }
+.i3 { background: yellow; display: inline-block; }
+.i4 { background: yellow; display: inline-block; }
+.i5 { background: yellow; display: inline-block; }
+.i6 { background: yellow; display: inline-block; }
+.i7 { background: yellow; display: inline-block; }
+.i8 { background: yellow; display: inline-block; }
+.i9 { background: yellow; display: inline-block; }
+.i10 {background: yellow; display: inline-block; }
+
+.j1 { background: orange; display: inline-block; }
+.j2 { background: orange; display: inline-block; }
+.j3 { background: orange; display: inline-block; }
+.j4 { background: orange; display: inline-block; }
+.j5 { background: orange; display: inline-block; }
+.j6 { background: orange; display: inline-block; }
+.j7 { background: orange; display: inline-block; }
+.j8 { background: orange; display: inline-block; }
+.j9 { background: orange; display: inline-block; }
+.j10 {background: orange; display: inline-block; }
+
+.k1 { background: yellow; display: inline-block; }
+.k2 { background: yellow; display: inline-block; }
+.k3 { background: yellow; display: inline-block; }
+.k4 { background: yellow; display: inline-block; }
+.k5 { background: yellow; display: inline-block; }
+.k6 { background: yellow; display: inline-block; }
+.k7 { background: yellow; display: inline-block; }
+.k8 { background: yellow; display: inline-block; }
+.k9 { background: yellow; display: inline-block; }
+.k10 {background: yellow; display: inline-block; }
+
+.l1 { background: orange; display: inline-block; }
+.l2 { background: orange; display: inline-block; }
+.l3 { background: orange; display: inline-block; }
+.l4 { background: orange; display: inline-block; }
+.l5 { background: orange; display: inline-block; }
+.l6 { background: orange; display: inline-block; }
+.l7 { background: orange; display: inline-block; }
+.l8 { background: orange; display: inline-block; }
+.l9 { background: orange; display: inline-block; }
+.l10 {background: orange; display: inline-block; }
+
+.m1 { background: yellow; display: inline-block; }
+.m2 { background: yellow; display: inline-block; }
+.m3 { background: yellow; display: inline-block; }
+.m4 { background: yellow; display: inline-block; }
+.m5 { background: yellow; display: inline-block; }
+.m6 { background: yellow; display: inline-block; }
+.m7 { background: yellow; display: inline-block; }
+.m8 { background: yellow; display: inline-block; }
+.m9 { background: yellow; display: inline-block; }
+.m10 {background: yellow; display: inline-block; }
+
+HTML:
+
+<div class="letter">
+  <div class="row">
+    <div class="pix a1"></div>
+    <div class="pix a2"></div>
+    <div class="pix a3"></div>
+    <div class="pix a4"></div>
+    <div class="pix a5"></div>
+    <div class="pix a6"></div>
+    <div class="pix a7"></div>
+    <div class="pix a8"></div>
+    <div class="pix a9"></div>
+    <div class="pix a10"></div>
+  </div>
+  <div class="row">
+    <div class="pix b1"></div>
+    <div class="pix b2"></div>
+    <div class="pix b3"></div>
+    <div class="pix b4"></div>
+    <div class="pix b5"></div>
+    <div class="pix b6"></div>
+    <div class="pix b7"></div>
+    <div class="pix b8"></div>
+    <div class="pix b9"></div>
+    <div class="pix b10"></div>
+  </div>
+  <div class="row">
+    <div class="pix c1"></div>
+    <div class="pix c2"></div>
+    <div class="pix c3"></div>
+    <div class="pix c4"></div>
+    <div class="pix c5"></div>
+    <div class="pix c6"></div>
+    <div class="pix c7"></div>
+    <div class="pix c8"></div>
+    <div class="pix c9"></div>
+    <div class="pix c10"></div>
+  </div>
+  <div class="row">
+    <div class="pix d1"></div>
+    <div class="pix d2"></div>
+    <div class="pix d3"></div>
+    <div class="pix d4"></div>
+    <div class="pix d5"></div>
+    <div class="pix d6"></div>
+    <div class="pix d7"></div>
+    <div class="pix d8"></div>
+    <div class="pix d9"></div>
+    <div class="pix d10"></div>
+  </div>
+  <div class="row">
+    <div class="pix e1"></div>
+    <div class="pix e2"></div>
+    <div class="pix e3"></div>
+    <div class="pix e4"></div>
+    <div class="pix e5"></div>
+    <div class="pix e6"></div>
+    <div class="pix e7"></div>
+    <div class="pix e8"></div>
+    <div class="pix e9"></div>
+    <div class="pix e10"></div>
+  </div>
+  <div class="row">
+    <div class="pix f1"></div>
+    <div class="pix f2"></div>
+    <div class="pix f3"></div>
+    <div class="pix f4"></div>
+    <div class="pix f5"></div>
+    <div class="pix f6"></div>
+    <div class="pix f7"></div>
+    <div class="pix f8"></div>
+    <div class="pix f9"></div>
+    <div class="pix f10"></div>
+  </div>
+  <div class="row">
+    <div class="pix g1"></div>
+    <div class="pix g2"></div>
+    <div class="pix g3"></div>
+    <div class="pix g4"></div>
+    <div class="pix g5"></div>
+    <div class="pix g6"></div>
+    <div class="pix g7"></div>
+    <div class="pix g8"></div>
+    <div class="pix g9"></div>
+    <div class="pix g10"></div>
+  </div>
+  <div class="row">
+    <div class="pix h1"></div>
+    <div class="pix h2"></div>
+    <div class="pix h3"></div>
+    <div class="pix h4"></div>
+    <div class="pix h5"></div>
+    <div class="pix h6"></div>
+    <div class="pix h7"></div>
+    <div class="pix h8"></div>
+    <div class="pix h9"></div>
+    <div class="pix h10"></div>
+  </div>
+  <div class="row">
+    <div class="pix i1"></div>
+    <div class="pix i2"></div>
+    <div class="pix i3"></div>
+    <div class="pix i4"></div>
+    <div class="pix i5"></div>
+    <div class="pix i6"></div>
+    <div class="pix i7"></div>
+    <div class="pix i8"></div>
+    <div class="pix i9"></div>
+    <div class="pix i10"></div>
+  </div>
+  <div class="row">
+    <div class="pix j1"></div>
+    <div class="pix j2"></div>
+    <div class="pix j3"></div>
+    <div class="pix j4"></div>
+    <div class="pix j5"></div>
+    <div class="pix j6"></div>
+    <div class="pix j7"></div>
+    <div class="pix j8"></div>
+    <div class="pix j9"></div>
+    <div class="pix j10"></div>
+  </div>
+  <div class="row">
+    <div class="pix k1"></div>
+    <div class="pix k2"></div>
+    <div class="pix k3"></div>
+    <div class="pix k4"></div>
+    <div class="pix k5"></div>
+    <div class="pix k6"></div>
+    <div class="pix k7"></div>
+    <div class="pix k8"></div>
+    <div class="pix k9"></div>
+    <div class="pix k10"></div>
+  </div>
+  <div class="row">
+    <div class="pix l1"></div>
+    <div class="pix l2"></div>
+    <div class="pix l3"></div>
+    <div class="pix l4"></div>
+    <div class="pix l5"></div>
+    <div class="pix l6"></div>
+    <div class="pix l7"></div>
+    <div class="pix l8"></div>
+    <div class="pix l9"></div>
+    <div class="pix l10"></div>
+  </div>
+  <div class="row">
+    <div class="pix m1"></div>
+    <div class="pix m2"></div>
+    <div class="pix m3"></div>
+    <div class="pix m4"></div>
+    <div class="pix m5"></div>
+    <div class="pix m6"></div>
+    <div class="pix m7"></div>
+    <div class="pix m8"></div>
+    <div class="pix m9"></div>
+    <div class="pix m10"></div>
+  </div>
+</div>
+
+QUICK TEMPLATE
+
+<div class="letter-&">
+  <div class="row-&">
+    <div class="pix-& &a1"></div>
+    <div class="pix-& &a2"></div>
+    <div class="pix-& &a3"></div>
+    <div class="pix-& &a4"></div>
+    <div class="pix-& &a5"></div>
+    <div class="pix-& &a6"></div>
+    <div class="pix-& &a7"></div>
+    <div class="pix-& &a8"></div>
+    <div class="pix-& &a9"></div>
+    <div class="pix-& &a10"></div>
+  </div>
+  <div class="row-&">
+    <div class="pix-& &b1"></div>
+    <div class="pix-& &b2"></div>
+    <div class="pix-& &b3"></div>
+    <div class="pix-& &b4"></div>
+    <div class="pix-& &b5"></div>
+    <div class="pix-& &b6"></div>
+    <div class="pix-& &b7"></div>
+    <div class="pix-& &b8"></div>
+    <div class="pix-& &b9"></div>
+    <div class="pix-& &b10"></div>
+  </div>
+  <div class="row-&">
+    <div class="pix-& &c1"></div>
+    <div class="pix-& &c2"></div>
+    <div class="pix-& &c3"></div>
+    <div class="pix-& &c4"></div>
+    <div class="pix-& &c5"></div>
+    <div class="pix-& &c6"></div>
+    <div class="pix-& &c7"></div>
+    <div class="pix-& &c8"></div>
+    <div class="pix-& &c9"></div>
+    <div class="pix-& &c10"></div>
+  </div>
+  <div class="row-&">
+    <div class="pix-& &d1"></div>
+    <div class="pix-& &d2"></div>
+    <div class="pix-& &d3"></div>
+    <div class="pix-& &d4"></div>
+    <div class="pix-& &d5"></div>
+    <div class="pix-& &d6"></div>
+    <div class="pix-& &d7"></div>
+    <div class="pix-& &d8"></div>
+    <div class="pix-& &d9"></div>
+    <div class="pix-& &d10"></div>
+  </div>
+  <div class="row-&">
+    <div class="pix-& &e1"></div>
+    <div class="pix-& &e2"></div>
+    <div class="pix-& &e3"></div>
+    <div class="pix-& &e4"></div>
+    <div class="pix-& &e5"></div>
+    <div class="pix-& &e6"></div>
+    <div class="pix-& &e7"></div>
+    <div class="pix-& &e8"></div>
+    <div class="pix-& &e9"></div>
+    <div class="pix-& &e10"></div>
+  </div>
+  <div class="row-&">
+    <div class="pix-& &f1"></div>
+    <div class="pix-& &f2"></div>
+    <div class="pix-& &f3"></div>
+    <div class="pix-& &f4"></div>
+    <div class="pix-& &f5"></div>
+    <div class="pix-& &f6"></div>
+    <div class="pix-& &f7"></div>
+    <div class="pix-& &f8"></div>
+    <div class="pix-& &f9"></div>
+    <div class="pix-& &f10"></div>
+  </div>
+  <div class="row-&">
+    <div class="pix-& &g1"></div>
+    <div class="pix-& &g2"></div>
+    <div class="pix-& &g3"></div>
+    <div class="pix-& &g4"></div>
+    <div class="pix-& &g5"></div>
+    <div class="pix-& &g6"></div>
+    <div class="pix-& &g7"></div>
+    <div class="pix-& &g8"></div>
+    <div class="pix-& &g9"></div>
+    <div class="pix-& &g10"></div>
+  </div>
+  <div class="row-&">
+    <div class="pix-& &h1"></div>
+    <div class="pix-& &h2"></div>
+    <div class="pix-& &h3"></div>
+    <div class="pix-& &h4"></div>
+    <div class="pix-& &h5"></div>
+    <div class="pix-& &h6"></div>
+    <div class="pix-& &h7"></div>
+    <div class="pix-& &h8"></div>
+    <div class="pix-& &h9"></div>
+    <div class="pix-& &h10"></div>
+  </div>
+  <div class="row-&">
+    <div class="pix-& &i1"></div>
+    <div class="pix-& &i2"></div>
+    <div class="pix-& &i3"></div>
+    <div class="pix-& &i4"></div>
+    <div class="pix-& &i5"></div>
+    <div class="pix-& &i6"></div>
+    <div class="pix-& &i7"></div>
+    <div class="pix-& &i8"></div>
+    <div class="pix-& &i9"></div>
+    <div class="pix-& &i10"></div>
+  </div>
+  <div class="row-&">
+    <div class="pix-& &j1"></div>
+    <div class="pix-& &j2"></div>
+    <div class="pix-& &j3"></div>
+    <div class="pix-& &j4"></div>
+    <div class="pix-& &j5"></div>
+    <div class="pix-& &j6"></div>
+    <div class="pix-& &j7"></div>
+    <div class="pix-& &j8"></div>
+    <div class="pix-& &j9"></div>
+    <div class="pix-& &j10"></div>
+  </div>
+  <div class="row-&">
+    <div class="pix-& &k1"></div>
+    <div class="pix-& &k2"></div>
+    <div class="pix-& &k3"></div>
+    <div class="pix-& &k4"></div>
+    <div class="pix-& &k5"></div>
+    <div class="pix-& &k6"></div>
+    <div class="pix-& &k7"></div>
+    <div class="pix-& &k8"></div>
+    <div class="pix-& &k9"></div>
+    <div class="pix-& &k10"></div>
+  </div>
+  <div class="row-&">
+    <div class="pix-& &l1"></div>
+    <div class="pix-& &l2"></div>
+    <div class="pix-& &l3"></div>
+    <div class="pix-& &l4"></div>
+    <div class="pix-& &l5"></div>
+    <div class="pix-& &l6"></div>
+    <div class="pix-& &l7"></div>
+    <div class="pix-& &l8"></div>
+    <div class="pix-& &l9"></div>
+    <div class="pix-& &l10"></div>
+  </div>
+  <div class="row-&">
+    <div class="pix-& &m1"></div>
+    <div class="pix-& &m2"></div>
+    <div class="pix-& &m3"></div>
+    <div class="pix-& &m4"></div>
+    <div class="pix-& &m5"></div>
+    <div class="pix-& &m6"></div>
+    <div class="pix-& &m7"></div>
+    <div class="pix-& &m8"></div>
+    <div class="pix-& &m9"></div>
+    <div class="pix-& &m10"></div>
+  </div>
+</div>
+</div>

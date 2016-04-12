@@ -1,0 +1,170 @@
+* { box-sizing: border-box;}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 0;}
+
+div {vertical-align: top;}
+
+.letter-v {
+	width: 500px;
+	height: 650px;
+	display: inline-block;
+}
+
+.row-v {
+	width: 500px;
+	height: 50px;
+	display: inline-block;
+}
+
+.pix-v {
+	width: 50px;
+	height: 50px;
+	margin: 0px;
+	display: inline-block;
+}
+
+.va1 { }
+.va2 { }
+.va3 { }
+.va4 { }
+.va5 { }
+.va6 { }
+.va7 { }
+.va8 { }
+.va9 { }
+.va10 {}
+
+.vb1 { }
+.vb2 { }
+.vb3 { }
+.vb4 { }
+.vb5 { }
+.vb6 { }
+.vb7 { }
+.vb8 { }
+.vb9 { }
+.vb10 {}
+
+.vc1 { }
+.vc2 { }
+.vc3 { }
+.vc4 { }
+.vc5 { }
+.vc6 { }
+.vc7 { }
+.vc8 { }
+.vc9 { }
+.vc10 {}
+
+.vd1 { background: #ebc894;}
+.vd2 { background: #424150;}
+.vd3 { background: #5d5d4f;}
+.vd4 { background: #4d6fae;}
+.vd5 { background: #f7f9e4;}
+.vd6 { background: #8b5040;}
+.vd7 { background: #4f5c5c;}
+.vd8 { background: #504141;}
+.vd9 { background: #78aadb;}
+.vd10 {}
+
+.ve1 { background: #f7e1c0;}
+.ve2 { background: #79441c;}
+.ve3 { background: #000000;}
+.ve4 { background: #76aad4;}
+.ve5 { background: #fffef2;}
+.ve6 { background: #c9a676;}
+.ve7 { background: #000000;}
+.ve8 { background: #004f7b;}
+.ve9 { background: #b7d7ea;}
+.ve10 {}
+
+.vf1 {}
+.vf2 { background: #f8d89c;}
+.vf3 { background: #000000;}
+.vf4 { background: #9fd5f4;}
+.vf5 {}
+.vf6 { background: #fce1a7;}
+.vf7 { background: #000000;}
+.vf8 { background: #acdef8;}
+.vf9 { }
+.vf10 {}
+
+.vg1 {}
+.vg2 { background: #fefdee;}
+.vg3 { background: #924420;}
+.vg4 { background: #0265b1;}
+.vg5 {}
+.vg6 { background: #b16928;}
+.vg7 { background: #024f9e;}
+.vg8 { background: #f7fcfd;}
+.vg9 { }
+.vg10 {}
+
+.vh1 {}
+.vh2 {}
+.vh3 { background: #ebbd7d;}
+.vh4 { background: #6e0e10;}
+.vh5 { background: #000000;}
+.vh6 { background: #273982;}
+.vh7 { background: #ecf7fa;}
+.vh8 { }
+.vh9 { }
+.vh10 {}
+
+.vi1 {}
+.vi2 {}
+.vi3 { background: #fefbdc;}
+.vi4 { background: #6e0e10;}
+.vi5 { background: #000000;}
+.vi6 { background: #273982;}
+.vi7 { background: #ecf7fa;}
+.vi8 { }
+.vi9 { }
+.vi10 {}
+
+.vj1 {}
+.vj2 {}
+.vj3 {}
+.vj4 { background: #d9a655;}
+.vj5 { background: #000000;}
+.vj6 { background: #6eb7e2;}
+.vj7 { }
+.vj8 { }
+.vj9 { }
+.vj10 {}
+
+.vk1 {}
+.vk2 {}
+.vk3 {}
+.vk4 {}
+.vk5 { background: #eae5ea;}
+.vk6 { }
+.vk7 { }
+.vk8 { }
+.vk9 { }
+.vk10 {}
+
+.vl1 { background: #;}
+.vl2 { background: #;}
+.vl3 { background: #;}
+.vl4 { background: #;}
+.vl5 { background: #;}
+.vl6 { background: #;}
+.vl7 { background: #;}
+.vl8 { background: #;}
+.vl9 { background: #;}
+.vl10 {background: #;}
+
+.vm1 { background: #;}
+.vm2 { background: #;}
+.vm3 { background: #;}
+.vm4 { background: #;}
+.vm5 { background: #;}
+.vm6 { background: #;}
+.vm7 { background: #;}
+.vm8 { background: #;}
+.vm9 { background: #;}
+.vm10 {background: #;}

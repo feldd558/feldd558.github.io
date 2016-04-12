@@ -1,0 +1,170 @@
+* { box-sizing: border-box;}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 0;}
+
+div {vertical-align: top;}
+
+.letter-n{
+	width: 500px;
+	height: 650px;
+	display: inline-block;
+}
+
+.row-n {
+	width: 500px;
+	height: 50px;
+	display: inline-block;
+}
+
+.pix-n {
+	width: 50px;
+	height: 50px;
+	margin: 0px;
+	display: inline-block;
+}
+
+.na1 { }
+.na2 { }
+.na3 { }
+.na4 { }
+.na5 { }
+.na6 { }
+.na7 { }
+.na8 { }
+.na9 { }
+.na10 {}
+
+.nb1 { }
+.nb2 { }
+.nb3 { }
+.nb4 { }
+.nb5 { }
+.nb6 { }
+.nb7 { }
+.nb8 { }
+.nb9 { }
+.nb10 {}
+
+.nc1 { }
+.nc2 { }
+.nc3 { }
+.nc4 { }
+.nc5 { }
+.nc6 { }
+.nc7 { }
+.nc8 { }
+.nc9 { }
+.nc10 {}
+
+.nd1 { background: #f8d8a1;}
+.nd2 { background: #504141;}
+.nd3 { background: #4f5c71;}
+.nd4 { background: #837a5b;}
+.nd5 { background: #000000;}
+.nd6 { background: #1a305c;}
+.nd7 { background: #aad1ea;}
+.nd8 { }
+.nd9 { }
+.nd10 {}
+
+.ne1 { background: #ffefcd;}
+.ne2 { background: #6f3315;}
+.ne3 { background: #000000;}
+.ne4 { background: #024e83;}
+.ne5 { background: #b1b8a4;}
+.ne6 { background: #653213;}
+.ne7 { background: #263988;}
+.ne8 { background: #eff8fb;}
+.ne9 { }
+.ne10 {}
+
+.nf1 {}
+.nf2 { background: #d8a047;}
+.nf3 { background: #252368;}
+.nf4 { background: #e2f3f8;}
+.nf5 {}
+.nf6 { background: #f9d394;}
+.nf7 { background: #0e0f3e;}
+.nf8 { background: #cdecfa;}
+.nf9 { }
+.nf10 {}
+
+.ng1 {}
+.ng2 { background: #d29735;}
+.ng3 { background: #27398e;}
+.ng4 { background: #f2fafb;}
+.ng5 {}
+.ng6 { background: #f3d395;}
+.ng7 { background: #0f0f3f;}
+.ng8 { background: #cdecfa;}
+.ng9 { }
+.ng10 {}
+
+.nh1 {}
+.nh2 { background: #d9a047;}
+.nh3 { background: #27398e;}
+.nh4 {}
+.nh5 {}
+.nh6 { background: #f8d894;}
+.nh7 { background: #16134c;}
+.nh8 { background: #96c2e1;}
+.nh9 { }
+.nh10 {}
+
+.ni1 { background: #fffbe6;}
+.ni2 { background: #9f5f26;}
+.ni3 { background: #211e5f;}
+.ni4 { background: #c2e0f3;}
+.ni5 {}
+.ni6 { background: #c9a061;}
+.ni7 { background: #000000;}
+.ni8 { background: #97c2e2;}
+.ni9 { }
+.ni10 {}
+
+.nj1 { background: #f3d294;}
+.nj2 { background: #000000;}
+.nj3 { background: #000000;}
+.nj4 { background: #044fa3;}
+.nj5 { background: #f6f7d2;}
+.nj6 { background: #4a110f;}
+.nj7 { background: #000000;}
+.nj8 { background: #211e60;}
+.nj9 { background: #d9f1fa;}
+.nj10 {}
+
+.nk1 { }
+.nk2 { }
+.nk3 { }
+.nk4 { }
+.nk5 { }
+.nk6 { }
+.nk7 { }
+.nk8 { }
+.nk9 { }
+.nk10 {}
+
+.nl1 { }
+.nl2 { }
+.nl3 { }
+.nl4 { }
+.nl5 { }
+.nl6 { }
+.nl7 { }
+.nl8 { }
+.nl9 { }
+.nl10 {}
+
+.nm1 { }
+.nm2 { }
+.nm3 { }
+.nm4 { }
+.nm5 { }
+.nm6 { }
+.nm7 { }
+.nm8 { }
+.nm9 { }
+.nm10 {}
