@@ -5,8 +5,10 @@ var hasStarted = false;
 $(window).keydown(function(e) { if (e.keyCode == 8) e.preventDefault(); });
 
 $('.enter-icon').click(function(){
-event.which == 13
-$(target).append(newLetter);
+var press = jQuery.Event("keypress");
+press.ctrlKey = false;
+press.which = 13;
+$(window).trigger(press);
 });
 
 
@@ -29,10 +31,12 @@ $(window).keypress(function(event) {
   // press_enter();
   var newLetter = false;
   if (event.which == 13) {
+    $(".enter-icon").css("transition","none");
 
     $(".enter-icon").css("background-color","black");
     $(".enter-icon").css("color","white");
     setTimeout(function(){ 
+    $(".enter-icon").css("transition","all .3s cubic-bezier(0.215, 0.61, 0.355, 1)");
     $(".enter-icon").css("background-color","white");
     $(".enter-icon").css("color","black");
      }, 150);
