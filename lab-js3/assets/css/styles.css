@@ -12,3 +12,13 @@
   text-decoration: none;
   
 }
+
+.content{
+  position: fixed;
+  top:150px;
+  left: 15px;
+}
+
+.object{
+  font-size: 40px
+}

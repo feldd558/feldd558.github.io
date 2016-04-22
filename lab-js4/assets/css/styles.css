@@ -1,0 +1,30 @@
+.button {
+    background-color: orange;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: fixed;
+    top: 551px;
+    left: 188px;
+    text-decoration: none;
+  
+}
+
+.content{
+    padding: 10px;
+    width: 238px;
+    height: 432px;
+    background-color: orange;
+    position: fixed;
+    top: 82px;
+    left: 79px;
+    font-size: 40px;
+    overflow-wrap: break-word;
+    overflow-x: scroll;
+}
+
+.object{
+  font-size: 40px;
+  font-family: arial, helvetica, sans-serif;
+}
