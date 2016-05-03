@@ -1,8 +1,13 @@
 *{
-Background-color: linen;
+background-color: linen;
 }
 
+
 @import url(http://weloveiconfonts.com/api/?family=entypo);
+
+.test {
+  color: white;
+}
 
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
