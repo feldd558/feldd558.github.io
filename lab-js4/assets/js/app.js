@@ -1001,11 +1001,11 @@ var objects = [
 " view"
 ];
 
-$(&rsquo;.button&rsquo;).click(function() {
+$(.bottom_button).click(function() {
 	var 
 	random_object_number = Math.floor(Math.random() * objects.length );
 	objects_to_use = objects[random_object_number],
-	result = &rsquo;<span class="object">&rsquo; + objects_to_use + &rsquo;</span>&rsquo;;
+	result = <span class="object"> + objects_to_use + </span>;
 
-	$(&rsquo;.content&rsquo;).prepend(result);
+	$(.content).prepend(result);
 });

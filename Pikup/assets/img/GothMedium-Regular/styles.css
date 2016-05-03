@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'GothMedium-Regular';
+  src: url('GothMedium-Regular.eot?#iefix') format('embedded-opentype'),  url('GothMedium-Regular.otf')  format('opentype'),
+	     url('GothMedium-Regular.woff') format('woff'), url('GothMedium-Regular.ttf')  format('truetype'), url('GothMedium-Regular.svg#GothMedium-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
