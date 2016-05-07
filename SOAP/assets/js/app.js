@@ -1,16 +1,12 @@
+$(".hoverarea").on({
+mouseenter: function () {
+    $(".hoverarea").addClass("hoverareahover");
+  },
 
-//object = "ck".html
-//
-//object.onmouseover(function(){
-//    $("ck").html.addClass("ckhover");
-//});
-
-$(".ck").hover(
-  function () {
-    $(this).addClass("ckhover");
-    $(".about").addClass("abouthover");
+mouseleave: function () {
+    $(".hoverarea").removeClass("hoverareahover");
   }
-);
+});
 
 $(".about").click(function() {
 	window.alert("\nLet's work together! \n-Dan");
