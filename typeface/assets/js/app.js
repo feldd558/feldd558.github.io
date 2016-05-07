@@ -32,7 +32,6 @@ $(window).keypress(function(event) {
   var newLetter = false;
   if (event.which == 13) {
     $(".enter-icon").css("transition","none");
-
     $(".enter-icon").css("background-color","black");
     $(".enter-icon").css("color","white");
     setTimeout(function(){ 

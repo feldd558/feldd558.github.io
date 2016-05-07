@@ -1001,31 +1001,81 @@ var objects = [
 " view ",
 ];
 
-	var 
-	random_object_number = Math.floor(Math.random() * objects.length );
-	objects_to_use = objects[random_object_number],
-	result = '<span class="object">' + objects_to_use + '</span>';
-		$(".card").html(result);
+var greetings = [
+" Hey, ",
+" Howdy, ",
+" Hola ",
+" Sup bae, ",
+" Aye girl, ",
+" Dammmmmmmmmn, ",
+" Guess what, ",
+" Are you from Tennessee? because ",
+" I just wanna let you know ",
+" You are hotter than ",
+" Are you an Angel? because ",
+" How about you and I ",
+" I saw you in my dream last night, ",
+" I saw you across the room and ",
+" You know you're in love when ",
+" You're my ",
+];
+
+changegreeting();
+
+function changegreeting() {
+	var random_greeting_number = Math.floor(Math.random() * greetings.length );
+	greetings_to_use = greetings[random_greeting_number],
+	result = '<span class="greetings">' + greetings_to_use + '</span>';
+	$(".greetings").html(result);
+}
+
+var random_object_number = Math.floor(Math.random() * objects.length );
+objects_to_use = objects[random_object_number],
+result = '<span class="object">' + objects_to_use + '</span>';
+	$(".card").html(result);
+
+$(".greetings").click(function() {
+	changegreeting();
+});
 
 $(".bottom_button").click(function() {
-	var 
-	random_object_number = Math.floor(Math.random() * objects.length );
-	objects_to_use = objects[random_object_number],
-	result = '<span class="object">' + objects_to_use + '</span>';
-
-	$(".card").html(result);
+	decline();
 });
 
 $(".top_button").click(function() {
+	approve();
+});
 
+$(window).keydown(function(event) {
+	if (event.which == 40 ) {
+		decline();
+			$(".card").addClass("swipeup");
+	}
+	
+});
+
+
+$(window).keyup(function(event) {
+	if (event.which == 38 ) {
+		approve();
+	}
+
+});
+
+function decline() {
+	var random_object_number = Math.floor(Math.random() * objects.length );
+	objects_to_use = objects[random_object_number],
+	result = '<span class="object">' + objects_to_use + '</span>';
+
+	$(".card").html(result);
+}
+
+function approve() {
 	$(".content").append($(".card").html());
-
-		var 
-	random_object_number = Math.floor(Math.random() * objects.length );
+	var random_object_number = Math.floor(Math.random() * objects.length );
 	objects_to_use = objects[random_object_number],
 	result = '<span class="object">' + objects_to_use + '</span>';
 	$(".card").html(result);
+}
 
-
-
-});
+$('.content').text().length

@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'gotham';
+    src: url('../fonts/goth-webfont.eot');
+    src: url('../fonts/goth-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/goth-webfont.woff2') format('woff2'),
+         url('../fonts/goth-webfont.woff') format('woff'),
+         url('../fonts/goth-webfont.ttf') format('truetype'),
+         url('../fonts/goth-webfont.svg#goth_mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background-color: #98edde;
+	font-size: 0px;
+	overflow-x: auto;
+}
+
+.wrapper{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	min-width: 1031px;
+}
+
+.line1{
+	width: 497px;
+	height: 133px;
+	font-family: gotham;
+	font-size: 122px;
+	color:#fff;
+	position: absolute;
+  	bottom: 181px;
+ 	left: 50%;
+ 	transform: translate(-517px, -50%);
+ 	z-index: 2;
+}
+
+.f{
+	width: 47px;
+	height: 133px;
+	font-family: gotham;
+	font-size: 122px;
+	color:#fff;
+	position: absolute;
+  	bottom: 80px;
+ 	left: 50%;
+ 	transform: translate(-90px, -50%);
+ 	text-decoration: underline;
+ 	z-index: 2;
+}
+
+.ck{
+	width: 143px;
+	height: 133px;
+	font-family: gotham;
+	font-size: 122px;
+	color:#fff;
+	position: absolute;
+  	bottom: 80px;
+ 	left: 50%;
+ 	transform: translate(50px, -50%);
+ 	text-decoration: underline;
+ 	z-index: 2;
+ 	transition: all 500ms;
+}
+.ckhover{
+	transform: translate(515px, -50%);
+}
+
+.line3{
+	width: 493px;
+	height: 133px;
+	font-family: gotham;
+	font-size: 122px;
+	color:#fff;
+	position: absolute;
+  	bottom: -38px;
+ 	left: 50%;
+ 	transform: translate(119px, -50%);
+ 	z-index: 2;
+}
+.about{
+    width: 0px;
+    height: 133px;
+    font-family: gotham;
+    font-size: 122px;
+    color: #e20100;
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translate(30px, -50%);
+    z-index: 2;
+    cursor: pointer;
+    direction: rtl;
+    overflow: hidden;
+    transition: all 500ms;
+}
+
+.abouthover{
+	width: 489px;
+}
+.head_space{}
+
+.christmas{
+	width:300px;
+	height:300px;
+	background-image: url("../img/christmas.png");
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+  	bottom: -150px;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	z-index: 3;
+}
+
