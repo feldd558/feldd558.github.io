@@ -1020,19 +1020,23 @@ var greetings = [
 " You're my ",
 ];
 
-changegreeting();
+
+var cardCounter = 0;
+var characterCount = 0;
+
 
 function changegreeting() {
-	var random_greeting_number = Math.floor(Math.random() * greetings.length );
+	var random_greeting_number = Math.floor(Math.random() * greetings.length);
 	greetings_to_use = greetings[random_greeting_number],
 	result = '<span class="greetings">' + greetings_to_use + '</span>';
+	characterCount = parseInt(characterCount) + parseInt(greetings_to_use.length -1);
+	$(".counter-top").html(characterCount);
 	$(".greetings").html(result);
 }
 
-var random_object_number = Math.floor(Math.random() * objects.length );
-objects_to_use = objects[random_object_number],
-result = '<span class="object">' + objects_to_use + '</span>';
-	$(".card").html(result);
+
+changegreeting();
+
 
 $(".greetings").click(function() {
 	changegreeting();
@@ -1048,34 +1052,61 @@ $(".top_button").click(function() {
 
 $(window).keydown(function(event) {
 	if (event.which == 40 ) {
+		$(".card" + cardCounter).addClass("swipedown");
 		decline();
-			$(".card").addClass("swipeup");
 	}
 	
 });
 
 
+//  http://twitter.com/?status=myTweet
+
+// window.location.href = "http://twitter.com/?status=myTweet";
+
+
 $(window).keyup(function(event) {
 	if (event.which == 38 ) {
+		$(".card" + cardCounter).addClass("swipeup");
 		approve();
+
 	}
 
 });
 
 function decline() {
-	var random_object_number = Math.floor(Math.random() * objects.length );
-	objects_to_use = objects[random_object_number],
-	result = '<span class="object">' + objects_to_use + '</span>';
-
-	$(".card").html(result);
+	generateCard();
 }
+
+var myTweet = "";
 
 function approve() {
-	$(".content").append($(".card").html());
-	var random_object_number = Math.floor(Math.random() * objects.length );
-	objects_to_use = objects[random_object_number],
-	result = '<span class="object">' + objects_to_use + '</span>';
-	$(".card").html(result);
+	if (characterCount < 140 ) {
+	$(".content").append($(".card" + cardCounter).html());
+	characterCount = parseInt(characterCount) + parseInt($(".card" + cardCounter + " span").html().length-1);
+	$(".counter-top").html(characterCount);
+	myTweet = myTweet + $(".card" + cardCounter + " span").html();
+
+
+	
+	}
+	generateCard();
+
 }
+
+
+
+function generateCard() {
+	cardCounter++;
+	$(".card_area").append('<div class="card card' + cardCounter + '"></div>');
+	var random_object_number = Math.floor(Math.random() * objects.length );
+objects_to_use = objects[random_object_number],
+result = '<span class="object">' + objects_to_use + '</span>';
+$(".card" + cardCounter).html(result);
+
+
+
+}
+
+generateCard();
 
 $('.content').text().length
