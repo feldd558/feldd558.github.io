@@ -1021,15 +1021,25 @@ var greetings = [
 ];
 
 
+
 var cardCounter = 0;
 var characterCount = 0;
+var greetingCharCount = 0;
+
+
+// make loop that runs until a word of equal or less length is found
+// length should be less than or equal to 140 - characterCount
+// while (x > 140-characterCount) {
+//}
 
 
 function changegreeting() {
 	var random_greeting_number = Math.floor(Math.random() * greetings.length);
 	greetings_to_use = greetings[random_greeting_number],
 	result = '<span class="greetings">' + greetings_to_use + '</span>';
-	characterCount = parseInt(characterCount) + parseInt(greetings_to_use.length -1);
+	characterCount = characterCount - greetingCharCount + parseInt(greetings_to_use.length -1);
+	greetingCharCount = parseInt(greetings_to_use.length -1);
+
 	$(".counter-top").html(characterCount);
 	$(".greetings").html(result);
 }
@@ -1052,7 +1062,6 @@ $(".top_button").click(function() {
 
 $(window).keydown(function(event) {
 	if (event.which == 40 ) {
-		$(".card" + cardCounter).addClass("swipedown");
 		decline();
 	}
 	
@@ -1066,29 +1075,27 @@ $(window).keydown(function(event) {
 
 $(window).keyup(function(event) {
 	if (event.which == 38 ) {
-		$(".card" + cardCounter).addClass("swipeup");
 		approve();
-
 	}
 
 });
 
 function decline() {
+	$(".card" + cardCounter).addClass("swipedown");
 	generateCard();
 }
 
 var myTweet = "";
 
 function approve() {
-	if (characterCount < 140 ) {
-	$(".content").append($(".card" + cardCounter).html());
-	characterCount = parseInt(characterCount) + parseInt($(".card" + cardCounter + " span").html().length-1);
-	$(".counter-top").html(characterCount);
-	myTweet = myTweet + $(".card" + cardCounter + " span").html();
-
-
-	
+	if (characterCount < 129 ) {
+		$(".content").append($(".card" + cardCounter).html());
+		characterCount = parseInt(characterCount) + parseInt($(".card" + cardCounter + " span").html().length-1);
+		$(".counter-top").html(characterCount);
+		myTweet = myTweet + $(".card" + cardCounter + " span").html();
+		
 	}
+	$(".card" + cardCounter).addClass("swipeup");
 	generateCard();
 
 }
@@ -1099,9 +1106,9 @@ function generateCard() {
 	cardCounter++;
 	$(".card_area").append('<div class="card card' + cardCounter + '"></div>');
 	var random_object_number = Math.floor(Math.random() * objects.length );
-objects_to_use = objects[random_object_number],
-result = '<span class="object">' + objects_to_use + '</span>';
-$(".card" + cardCounter).html(result);
+	objects_to_use = objects[random_object_number],
+	result = '<span class="object">' + objects_to_use + '</span>';
+	$(".card" + cardCounter).html(result);
 
 
 
@@ -1110,3 +1117,24 @@ $(".card" + cardCounter).html(result);
 generateCard();
 
 $('.content').text().length
+
+var hashtag = [
+"#pikuplines",
+];
+
+$('.send').click(function() {
+	var myTweet = $('.content').html().toString();
+	myTweet = myTweet.replace('             ', '');
+	myTweet = myTweet.replace('  ', '');
+	myTweet = myTweet.replace(/<span class="object">/g, '');
+	myTweet = myTweet.replace(/<\/span>/g, '');
+	myTweet = myTweet.replace(/<span class="greetings">/g, '');
+	myTweet = myTweet.replace(/\n/g, '');
+	myTweet = myTweet.replace(/  /g, ' ');
+	myTweet = myTweet.replace(/      /g, ' ');
+	myTweet = myTweet.replace(/&rsquo;/g, '′');
+	console.log(myTweet);
+	console.log(hashtag)
+
+	window.open("http://twitter.com/?status=" + myTweet + hashtag);
+});
