@@ -16,7 +16,7 @@
 
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
-  color: #FF865B;
+  color: #464646;
 }
 
 html{
@@ -26,38 +26,23 @@ font-size: 0;
 }
 
 body {
-background-color: #FF865B;
+background-color: #464646;
 width: 100%;
 height: 100%;
 font-size: 0;
 margin: 0;
 font-family: 'gotham', arial, helvetica, sans-serif;
 overflow: hidden;
-
 }
 
-.secretbutton{
-width: 0;
-height: 0;
-border-style: solid;
-border-width: 0 6.5px 11.3px 6.5px;
-border-color: transparent transparent #fff transparent;
-cursor: pointer;
-z-index: 10000000000;
-position: absolute;
-top: 7px;
-left: 125px;
-}
-.secretbutton:hover{
-  -webkit-transform:rotate(-180deg);
-  transition: all 0.4s;
-  cursor: pointer;
+.body2{
+background-color: #464646;
 }
 
 .card_area{
   width: 500px;
   height: 100%;
-  background-color: #FCDABA;
+  background-color: #959595;
   position: absolute;
   right: 0px;
   min-height: 600px;
@@ -82,8 +67,8 @@ left: 125px;
 }
 
 .send{
-   background-color: #FCDABA;
-   color: #FF865B;
+   background-color: #959595;
+   color: #464646;
    font-size: 10pt;
    text-align: center;
    padding: 5px;
@@ -95,12 +80,12 @@ left: 125px;
    cursor: pointer;
 }
 
-.cta{
-    color: #FCDABA;
+.cta2{
+    color: #959595;
     font-size: 10pt;
     text-align: center;
     padding: 0;
-    width: 166px;
+    width: 188px;
     height: 15px;
     position: absolute;
     top: 129px;
@@ -201,6 +186,19 @@ left: 125px;
     z-index: 6;
 }
 
+.logo2{
+    width: 267px;
+    height: 72px;
+    background-image: url("../img/putdown.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 6;
+}
+
 .content_area{
     left: 0px;
     top: 0px;
@@ -219,13 +217,20 @@ border: 0px solid #000000;
 
 .greetings{
   font-size: 20pt;
-  color: #FF865B;
+  color: #464646;
   cursor: pointer;
 }
 
+.insults{
+  font-size: 20pt;
+  color: #464646;
+  cursor: pointer;
+}
+
+
 .counter{
   font-size: 10pt;
-  color: #FCDABA;
+  color: #959595;
   position: absolute;
   bottom: 15px;
   right: 15px;
